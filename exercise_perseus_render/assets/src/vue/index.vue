@@ -1,7 +1,14 @@
 <template>
 
   <div id="exercise-container">
-    <perseus v-if="item" :item="item"></perseus>
+    <assessment-wrapper
+      v-ref:wrapper
+      v-if="exercise"
+      :itemId="itemId"
+      :masteryModel="exercise.mastery_model"
+      :masterySpacingTime="exercise.masterySpacingTime">
+      <perseus v-if="item" :item="item"></perseus>
+    </assessment-wrapper>
   </div>
 
 </template>
@@ -9,15 +16,44 @@
 
 <script>
 
-  const defaultQuestion = require('./question.json');
-
   module.exports = {
     data: () => ({
-      item: defaultQuestion,
+      item: undefined,
+      exercise: undefined,
+      itemId: undefined,
     }),
+    methods: {
+      setItemId() {
+        const items = this.exercise.all_assessment_items;
+        const attempts = this.$refs.totalattempts;
+        this.itemId = items[attempts % items.length];
+        this.$emit('itemIdSet');
+      },
+      setItemData() {
+        this.Kolibri.client(
+          `${this.defaultFile.storage_url}/${this.itemId}.json`
+          ).then((itemResponse) => {
+            const itemData = itemResponse.entity.itemData.replace(
+              '${aronsfacehere}',
+              this.defaultFile.storage_url);
+            this.item = JSON.parse(itemData);
+          });
+      }
+    },
     components: {
       perseus: require('./perseus'),
+      assessmentWrapper: require('kolibri/core/vue/components/assessmentWrapper'),
     },
+    created() {
+      this.Kolibri.client(`${this.defaultFile.storage_url}/exercise.json`).then(
+        (exerciseResponse) => {
+          this.exercise = exerciseResponse.entity;
+          this.$emit('assessmentDataLoaded');
+        });
+    },
+    props: [
+      'defaultFile',
+    ],
   };
 
 </script>
