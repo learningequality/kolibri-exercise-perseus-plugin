@@ -52,12 +52,15 @@
       global.$ = require('jquery');
       global.jQuery = global.$;
 
+      require('babel-polyfill');
+
       // Underscore as well! We use their bundled version for compatibility reasons.
       global._ = require('underscore');
 
       // Perseus expects React to be available on the global object
       this.react = require('react');
       global.React = this.react;
+
 
       // Perseus expects ReactDOM to be in a particular place on the React object.
       global.React.__internalReactDOM = require('react-dom');
@@ -69,6 +72,8 @@
         CSSTransitionGroup: require('react-addons-css-transition-group'),
         PureRenderMixin: require('react-addons-pure-render-mixin'),
       };
+
+
       global.React.addons = global.React.__internalAddons;
       // Perseus also expects katex to be globally imported.
       global.katex = require('perseus/lib/katex/katex');
