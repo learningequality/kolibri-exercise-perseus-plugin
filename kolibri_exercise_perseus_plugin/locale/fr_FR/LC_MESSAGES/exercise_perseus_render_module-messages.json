@@ -1,6 +1,6 @@
 {
   "PerseusInternalMessages. The symbol { sentenceSymbol } indicates that the following sentence is referenced in a question.": " Le symbole { sentenceSymbol } indique que la phrase suivante est référencée dans une question.",
-  "PerseusInternalMessages.'None of the above' may not be selected when other answers are selected.": "\"Aucune de ces réponses\" ne peut être sélectionnée lorsque d'autres réponses sont sélectionnées.",
+  "PerseusInternalMessages.'None of the above' may not be selected when other answers are selected.": "On ne peut pas sélectionner \"aucune de ces propositions\" quand d'autres réponses ont été sélectionnées.",
   "PerseusInternalMessages.(Choice { letter })": "(Le choix { letter })",
   "PerseusInternalMessages.(Choice { letter }, Checked)": "(Le choix{ letter }, Vérifié)",
   "PerseusInternalMessages.(Choice { letter }, Checked, Correct)": "(Le choix { letter }, Vérifié, Correct)",
