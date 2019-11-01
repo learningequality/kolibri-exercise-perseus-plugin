@@ -18,7 +18,7 @@
     "draft-js": "^0.10.1",
     "fractional": "^1.0.0",
     "immutable": "^3.8.1",
-    "jquery": "2.2.4",
+    "jquery": "3.4.0",
     "keen-ui": "https://github.com/learningequality/Keen-UI/",
     "kmath": "^0.0.1",
     "performance-now": "^2.1.0",
