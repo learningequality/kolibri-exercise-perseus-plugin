@@ -1,0 +1,442 @@
+"Identifier","Source String","Context","Translation"
+"PerseusInternalMessages. The symbol { sentenceSymbol } indicates that the following sentence is referenced in a question."," The symbol { sentenceSymbol } indicates that the following sentence is referenced in a question.","
+-- CONTEXT --
+"," El símbolo { sentenceSymbol } indica que la siguiente oración está referenciada desde una pregunta."
+"PerseusInternalMessages.'None of the above' may not be selected when other answers are selected.","'None of the above' may not be selected when other answers are selected.","
+-- CONTEXT --
+","'Ninguna de las anteriores' no puede ser seleccionada cuando se seleccionan otras respuestas."
+"PerseusInternalMessages.(Choice { letter })","(Choice { letter })","
+-- CONTEXT --
+","(Opción { letter })"
+"PerseusInternalMessages.(Choice { letter }, Checked)","(Choice { letter }, Checked)","
+-- CONTEXT --
+","(Opción { letter }, Revisado)"
+"PerseusInternalMessages.(Choice { letter }, Checked, Correct)","(Choice { letter }, Checked, Correct)","
+-- CONTEXT --
+","(Opción { letter }, Revisado, Correcto)"
+"PerseusInternalMessages.(Choice { letter }, Checked, Incorrect)","(Choice { letter }, Checked, Incorrect)","
+-- CONTEXT --
+","(Opción { letter }, Revisado, Incorrecto)"
+"PerseusInternalMessages.(Choice { letter }, Correct Answer)","(Choice { letter }, Correct Answer)","
+-- CONTEXT --
+","(Opción { letter }, Respuesta correcta)"
+"PerseusInternalMessages.**Your answer should be** ","**Your answer should be** ","
+-- CONTEXT --
+","**Tu respuesta debería ser** "
+"PerseusInternalMessages.A B C D E F G H I J K L M N O P Q R S T U V W X Y Z","A B C D E F G H I J K L M N O P Q R S T U V W X Y Z","
+-- CONTEXT --
+","A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+"PerseusInternalMessages.A free world-class education for { who }.","A free world-class education for { who }.","
+-- CONTEXT --
+","Una educación gratuita de primer nivel para { who }."
+"PerseusInternalMessages.Add highlight","Add highlight","
+-- CONTEXT --
+","Añadir resaltado"
+"PerseusInternalMessages.Beginning of reading passage footnotes.","Beginning of reading passage footnotes.","
+-- CONTEXT --
+","Principio de notas para el parágrafo de lectura."
+"PerseusInternalMessages.Beginning of reading passage.","Beginning of reading passage.","
+-- CONTEXT --
+","Principio del parágrafo de lectura."
+"PerseusInternalMessages.Check","Check","
+-- CONTEXT --
+","Comprobar"
+"PerseusInternalMessages.Check your significant figures.","Check your significant figures.","
+-- CONTEXT --
+","Revisa tus cifras significativas."
+"PerseusInternalMessages.Check your units.","Check your units.","
+-- CONTEXT --
+","Revisa tus unidades."
+"PerseusInternalMessages.Choose 1 answer:","Choose 1 answer:","
+-- CONTEXT --
+","Escoge 1 respuesta:"
+"PerseusInternalMessages.Choose all answers that apply:","Choose all answers that apply:","
+-- CONTEXT --
+","Elige todas las respuestas adecuadas:"
+"PerseusInternalMessages.Choose { numCorrect } answers:","Choose { numCorrect } answers:","
+-- CONTEXT --
+","Elige { numCorrect } respuestas: "
+"PerseusInternalMessages.Click on the tiles to change the lights.","Click on the tiles to change the lights.","
+-- CONTEXT --
+","Haz clic en las fichas para cambiar las luces."
+"PerseusInternalMessages.Click to add points","Click to add points","
+-- CONTEXT --
+","Haz clic para agregar puntos"
+"PerseusInternalMessages.Click to add vertices","Click to add vertices","
+-- CONTEXT --
+","Haz clic para agregar vértices"
+"PerseusInternalMessages.Correct!","Correct!","
+-- CONTEXT --
+","¡Correcto!"
+"PerseusInternalMessages.Cosine","Cosine","
+-- CONTEXT --
+","Coseno"
+"PerseusInternalMessages.Cube","Cube","
+-- CONTEXT --
+","Cubo"
+"PerseusInternalMessages.Cube root","Cube root","
+-- CONTEXT --
+","Raíz cúbica"
+"PerseusInternalMessages.Custom exponent","Custom exponent","
+-- CONTEXT --
+","Cualquier exponente"
+"PerseusInternalMessages.Decimal","Decimal","
+-- CONTEXT --
+","Decimal"
+"PerseusInternalMessages.Delete","Delete","
+-- CONTEXT --
+","Eliminar"
+"PerseusInternalMessages.Dilate","Dilate","
+-- CONTEXT --
+","Aplicar homotecia"
+"PerseusInternalMessages.Dilation","Dilation","
+-- CONTEXT --
+","Homotecia"
+"PerseusInternalMessages.Dilation about { point } by { scale }","Dilation about { point } by { scale }","
+-- CONTEXT --
+","Homtecia con respecto a { point } por { scale }"
+"PerseusInternalMessages.Dilation of scale { scale } about { point }","Dilation of scale { scale } about { point }","
+-- CONTEXT --
+","Homotecia de escala { scale } con respecto a { point }"
+"PerseusInternalMessages.Dismiss","Dismiss","
+-- CONTEXT --
+","Descartar"
+"PerseusInternalMessages.Divide","Divide","
+-- CONTEXT --
+","Dividir"
+"PerseusInternalMessages.Down arrow","Down arrow","
+-- CONTEXT --
+","Flecha abajo"
+"PerseusInternalMessages.End of reading passage.","End of reading passage.","
+-- CONTEXT --
+","Final del parágrafo de lectura."
+"PerseusInternalMessages.Equals sign","Equals sign","
+-- CONTEXT --
+","El signo de igual"
+"PerseusInternalMessages.Explain","Explain","
+-- CONTEXT --
+","Explicación."
+"PerseusInternalMessages.False","False","
+-- CONTEXT --
+","Falso"
+"PerseusInternalMessages.Fraction, excluding the current expression","Fraction, excluding the current expression","
+-- CONTEXT --
+","Fracción, excepto la expresión actual"
+"PerseusInternalMessages.Fraction, with current expression in numerator","Fraction, with current expression in numerator","
+-- CONTEXT --
+","Fracción, con la actual expresión en el numerador"
+"PerseusInternalMessages.Get another hint","Get another hint","
+-- CONTEXT --
+","Obtén otra pista"
+"PerseusInternalMessages.Greater than or equal to sign","Greater than or equal to sign","
+-- CONTEXT --
+","Signo de mayor o igual que"
+"PerseusInternalMessages.Greater than sign","Greater than sign","
+-- CONTEXT --
+","Signo de mayor que"
+"PerseusInternalMessages.Hide explanation","Hide explanation","
+-- CONTEXT --
+","Ocultar explicación."
+"PerseusInternalMessages.Hint #{ pos }","Hint #{ pos }","
+-- CONTEXT --
+","Pista #{ pos }"
+"PerseusInternalMessages.Hints","Hints","
+-- CONTEXT --
+","Pistas"
+"PerseusInternalMessages.I couldn't understand those units.","I couldn't understand those units.","
+-- CONTEXT --
+","No pude entender esas unidades."
+"PerseusInternalMessages.I don't understand that","I don't understand that","
+-- CONTEXT --
+","No entiendo eso"
+"PerseusInternalMessages.Keep trying","Keep trying","
+-- CONTEXT --
+","Sigue intentando"
+"PerseusInternalMessages.Khan Academy","Khan Academy","
+-- CONTEXT --
+","Khan Academy"
+"PerseusInternalMessages.Left arrow","Left arrow","
+-- CONTEXT --
+","Flecha izquierda"
+"PerseusInternalMessages.Left parenthesis","Left parenthesis","
+-- CONTEXT --
+","Paréntesis de apertura"
+"PerseusInternalMessages.Less than or equal to sign","Less than or equal to sign","
+-- CONTEXT --
+","Signo de menor o igual que"
+"PerseusInternalMessages.Less than sign","Less than sign","
+-- CONTEXT --
+","Signo de menor que"
+"PerseusInternalMessages.Logarithm with base 10","Logarithm with base 10","
+-- CONTEXT --
+","Logaritmo con base 10"
+"PerseusInternalMessages.Logarithm with custom base","Logarithm with custom base","
+-- CONTEXT --
+","Logaritmo con cualquier base"
+"PerseusInternalMessages.Make circle filled","Make circle filled","
+-- CONTEXT --
+","Haz el círculo relleno"
+"PerseusInternalMessages.Make circle open","Make circle open","
+-- CONTEXT --
+","Haz el círculo abierto"
+"PerseusInternalMessages.Make sure you fill in all cells in the matrix.","Make sure you fill in all cells in the matrix.","
+-- CONTEXT --
+","Asegúrate de rellenar todas las celdas de la matriz."
+"PerseusInternalMessages.Make sure you select something for every row.","Make sure you select something for every row.","
+-- CONTEXT --
+","Asegúrate de seleccionar algo para cada fila."
+"PerseusInternalMessages.Math input box","Math input box","
+-- CONTEXT --
+","Campo para ecuaciones matemáticas"
+"PerseusInternalMessages.Minus","Minus","
+-- CONTEXT --
+","Menos"
+"PerseusInternalMessages.Multiply","Multiply","
+-- CONTEXT --
+","multiplica"
+"PerseusInternalMessages.Natural logarithm","Natural logarithm","
+-- CONTEXT --
+","Logaritmo natural"
+"PerseusInternalMessages.Navigate right into the numerator of a fraction","Navigate right into the numerator of a fraction","
+-- CONTEXT --
+","Navegar al numerador de una fracción"
+"PerseusInternalMessages.Navigate right out of a base","Navigate right out of a base","
+-- CONTEXT --
+","Navegar fuera de una base"
+"PerseusInternalMessages.Navigate right out of a set of parentheses","Navigate right out of a set of parentheses","
+-- CONTEXT --
+","Navegar fuera de un conjunto de paréntesis"
+"PerseusInternalMessages.Navigate right out of an exponent","Navigate right out of an exponent","
+-- CONTEXT --
+","Navegar fuera de un exponente"
+"PerseusInternalMessages.Navigate right out of the denominator of a fraction","Navigate right out of the denominator of a fraction","
+-- CONTEXT --
+","Navegar fuera del denominador de una fracción"
+"PerseusInternalMessages.Navigate right out of the numerator and into the denominator","Navigate right out of the numerator and into the denominator","
+-- CONTEXT --
+","Navegar fuera del numerador y hacia el denominador"
+"PerseusInternalMessages.Negative","Negative","
+-- CONTEXT --
+","Negativo(a)"
+"PerseusInternalMessages.Next question","Next question","
+-- CONTEXT --
+","Siguiente pregunta"
+"PerseusInternalMessages.No","No","
+-- CONTEXT --
+","No"
+"PerseusInternalMessages.None of the above","None of the above","
+-- CONTEXT --
+","Ninguna de las opciones anteriores"
+"PerseusInternalMessages.Not-equals sign","Not-equals sign","
+-- CONTEXT --
+","Signo de desigual"
+"PerseusInternalMessages.Number of divisions:","Number of divisions:","
+-- CONTEXT --
+","Número de divisiones:"
+"PerseusInternalMessages.Percent","Percent","
+-- CONTEXT --
+","Porcentaje"
+"PerseusInternalMessages.Pi","Pi","
+-- CONTEXT --
+","Pi"
+"PerseusInternalMessages.Please choose the correct number of answers.","Please choose the correct number of answers.","
+-- CONTEXT --
+","Por favor elige el número correcto de respuestas."
+"PerseusInternalMessages.Please make sure the number of divisions is in the range { divRangeString }.","Please make sure the number of divisions is in the range { divRangeString }.","
+-- CONTEXT --
+","Por favor, asegúrate de que el número de divisiones es en la gama { divRangeString }."
+"PerseusInternalMessages.Plus","Plus","
+-- CONTEXT --
+","Más"
+"PerseusInternalMessages.Radical with custom root","Radical with custom root","
+-- CONTEXT --
+","Radical con cualquier raíz"
+"PerseusInternalMessages.Reflect","Reflect","
+-- CONTEXT --
+","Reflejar"
+"PerseusInternalMessages.Reflection","Reflection","
+-- CONTEXT --
+","Reflexión"
+"PerseusInternalMessages.Reflection over the line from { point1 } to { point2 }","Reflection over the line from { point1 } to { point2 }","
+-- CONTEXT --
+","Reflexión sobre la recta del { point1 } al { point2 }"
+"PerseusInternalMessages.Remove highlight","Remove highlight","
+-- CONTEXT --
+","Quitar resaltado"
+"PerseusInternalMessages.Right arrow","Right arrow","
+-- CONTEXT --
+","Flecha derecha"
+"PerseusInternalMessages.Right parenthesis","Right parenthesis","
+-- CONTEXT --
+","Paréntesis de cierre"
+"PerseusInternalMessages.Rotate","Rotate","
+-- CONTEXT --
+","Rotar"
+"PerseusInternalMessages.Rotation","Rotation","
+-- CONTEXT --
+","Rotación"
+"PerseusInternalMessages.Rotation about { point } by { degrees }","Rotation about { point } by { degrees }","
+-- CONTEXT --
+","Rotación alrededor de { point } de { degrees }"
+"PerseusInternalMessages.Rotation by { degrees } about { point }","Rotation by { degrees } about { point }","
+-- CONTEXT --
+","Rotación de { degrees } alrededor de { point }"
+"PerseusInternalMessages.Run simulation","Run simulation","
+-- CONTEXT --
+","Ejecutar simulación"
+"PerseusInternalMessages.Show the last step","Show the last step","
+-- CONTEXT --
+","Mostrar el último paso"
+"PerseusInternalMessages.Show the next step","Show the next step","
+-- CONTEXT --
+","Mostrar el siguiente paso"
+"PerseusInternalMessages.Sine","Sine","
+-- CONTEXT --
+","seno"
+"PerseusInternalMessages.Sorry, I don't understand that!","Sorry, I don't understand that!","
+-- CONTEXT --
+","¡Perdón, no entiendo eso!"
+"PerseusInternalMessages.Square","Square","
+-- CONTEXT --
+","Cuadrado"
+"PerseusInternalMessages.Square root","Square root","
+-- CONTEXT --
+","Raíz cuadrada"
+"PerseusInternalMessages.Steps","Steps","
+-- CONTEXT --
+","Pasos"
+"PerseusInternalMessages.Switch direction","Switch direction","
+-- CONTEXT --
+","Cambia la dirección"
+"PerseusInternalMessages.Tangent","Tangent","
+-- CONTEXT --
+","Tangente"
+"PerseusInternalMessages.That answer is numerically incorrect.","That answer is numerically incorrect.","
+-- CONTEXT --
+","Esa respuesta es numéricamente incorrecta."
+"PerseusInternalMessages.The symbol { questionSymbol } indicates that question { questionNumber } references this portion of the passage.","The symbol { questionSymbol } indicates that question { questionNumber } references this portion of the passage.","
+-- CONTEXT --
+","El símbolo { questionSymbol } indica que la pregunta { questionNumber } hace referencia a esa porción del texto."
+"PerseusInternalMessages.Theta","Theta","
+-- CONTEXT --
+","Zeta"
+"PerseusInternalMessages.Translate","Translate","
+-- CONTEXT --
+","Trasladar"
+"PerseusInternalMessages.Translation","Translation","
+-- CONTEXT --
+","Traducción"
+"PerseusInternalMessages.Translation by { vector }","Translation by { vector }","
+-- CONTEXT --
+","Traslación por { vector }"
+"PerseusInternalMessages.True","True","
+-- CONTEXT --
+","Verdadero"
+"PerseusInternalMessages.Try again","Try again","
+-- CONTEXT --
+","Intenta de nuevo"
+"PerseusInternalMessages.Up arrow","Up arrow","
+-- CONTEXT --
+","Flecha  arriba"
+"PerseusInternalMessages.Use the interactive graph to define a correct transformation.","Use the interactive graph to define a correct transformation.","
+-- CONTEXT --
+","Usa el gráfico interactivo para definir una transformación correcta."
+"PerseusInternalMessages.We could not understand your answer. Please check your answer for extra text or symbols.","We could not understand your answer. Please check your answer for extra text or symbols.","
+-- CONTEXT --
+","No pudimos entender tu respuesta. Por favor comprueba tu respuesta buscando símbolos o texto adicional."
+"PerseusInternalMessages.Yes","Yes","
+-- CONTEXT --
+","Sí"
+"PerseusInternalMessages.You must turn on all of the lights to continue.","You must turn on all of the lights to continue.","
+-- CONTEXT --
+","Debes encender todas las luces para continuar."
+"PerseusInternalMessages.Your answer is almost correct, but it is missing a <code>%</code> at the end.","Your answer is almost correct, but it is missing a <code>\\%</code> at the end.","
+-- CONTEXT --
+","Tu respuesta es casi correcta, pero le falta un <code>\\%</code> al final."
+"PerseusInternalMessages.Your answer is almost correct, but it needs to be simplified.","Your answer is almost correct, but it needs to be simplified.","
+-- CONTEXT --
+","Tu respuesta casi es correcta, pero tiene que ser simplificada."
+"PerseusInternalMessages.Your answer is close, but you may have approximated pi. Enter your answer as a multiple of pi, like <code>12 text{pi}</code> or <code>2/3 text{pi}</code>","Your answer is close, but you may have approximated pi. Enter your answer as a multiple of pi, like <code>12\\ \\text{pi}</code> or <code>2/3\\ \\text{pi}</code>","
+-- CONTEXT --
+","Tu respuesta está muy cerca, pero quizás aproximaste pi. Ingresa tu respuesta como un múltiplo de pi, como <code>12\\ \\text{pi}</code> o <code>2/3\\ \\text{pi}</code>"
+"PerseusInternalMessages.Your answer:","Your answer:","
+-- CONTEXT --
+","Tu respuesta:"
+"PerseusInternalMessages.Your transformation must use a { type }.","Your transformation must use a { type }.","
+-- CONTEXT --
+","Tu transformación debe usar un { type }."
+"PerseusInternalMessages.[Circle marker { number }]","[Circle marker { number }]","
+-- CONTEXT --
+","[Marcador de círculo{ number }]"
+"PerseusInternalMessages.[Marker for question { number }]","[Marker for question { number }]","
+-- CONTEXT --
+","[Marcador para la pregunta { number }]"
+"PerseusInternalMessages.[Sentence { number }]","[Sentence { number }]","
+-- CONTEXT --
+","[Enunciado { number }]"
+"PerseusInternalMessages.a *proper* fraction, like $1/2$ or $6/10$","a *proper* fraction, like $1/2$ or $6/10$","
+-- CONTEXT --
+","una fracción *propia*, como $1/2$ o $6/10$"
+"PerseusInternalMessages.a *simplified improper* fraction, like $7/4$","a *simplified improper* fraction, like $7/4$","
+-- CONTEXT --
+","una fracción *impropia simplificada*, como $7/4$"
+"PerseusInternalMessages.a *simplified proper* fraction, like $3/5$","a *simplified proper* fraction, like $3/5$","
+-- CONTEXT --
+","una fracción *propia simplificada*, como $3/5$"
+"PerseusInternalMessages.a mixed number, like $1 3/4$","a mixed number, like $1\\ 3/4$","
+-- CONTEXT --
+","un número mixto, como $1\\ 3/4$"
+"PerseusInternalMessages.a multiple of pi, like $12 text{pi}$ or $2/3 text{pi}$","a multiple of pi, like $12\\ \\text{pi}$ or $2/3\\ \\text{pi}$","
+-- CONTEXT --
+","un múltiplo de pi, como $12\\ \\text{pi}$ o $2/3\\ \\text{pi}$"
+"PerseusInternalMessages.a percent, like $12.34%$","a percent, like $12.34\\%$","
+-- CONTEXT --
+","un porcentaje, como $12.34\\%$"
+"PerseusInternalMessages.an *exact* decimal, like $0.75$","an *exact* decimal, like $0.75$","
+-- CONTEXT --
+","un decimal *exacto*, como $0.75$"
+"PerseusInternalMessages.an *improper* fraction, like $10/7$ or $14/8$","an *improper* fraction, like $10/7$ or $14/8$","
+-- CONTEXT --
+","una fracción *impropia*, como $10/7$ o $14/8$"
+"PerseusInternalMessages.an integer, like $6$","an integer, like $6$","
+-- CONTEXT --
+","un entero, como $6$"
+"PerseusInternalMessages.dilation","dilation","
+-- CONTEXT --
+","homotecia"
+"PerseusInternalMessages.line { lineNumber }","line { lineNumber }","
+-- CONTEXT --
+","línea { lineNumber }"
+"PerseusInternalMessages.lines { lineRange }","lines { lineRange }","
+-- CONTEXT --
+","líneas { lineRange }"
+"PerseusInternalMessages.reflection","reflection","
+-- CONTEXT --
+","reflexión"
+"PerseusInternalMessages.rotation","rotation","
+-- CONTEXT --
+","rotación"
+"PerseusInternalMessages.translation","translation","
+-- CONTEXT --
+","traducción"
+"PerseusRendererIndex.hint","Use a hint ({hintsLeft, number} left)","
+-- CONTEXT --
+","Usar una pista (tienes {hintsLeft, number})"
+"PerseusRendererIndex.hintExplanation","If you use a hint, this question will not be added to your progress","
+-- CONTEXT --
+","Si utilizas una pista, la respuesta no cuenta para tu progreso"
+"PerseusRendererIndex.hintLabel","Hint:","
+-- CONTEXT --
+","Pista:"
+"PerseusRendererIndex.loading","Loading","
+-- CONTEXT --
+","Cargando"
+"PerseusRendererIndex.noMoreHint","No more hints","
+-- CONTEXT --
+","No quedan pistas"
+"PerseusRendererIndex.notAvailable","The scratchpad is not available","
+-- CONTEXT --
+","Pizarra no disponible"
+"PerseusRendererIndex.showScratch","Show scratchpad","
+-- CONTEXT --
+","Ver pizarra"

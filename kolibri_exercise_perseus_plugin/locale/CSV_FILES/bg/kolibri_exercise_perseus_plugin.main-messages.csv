@@ -1,0 +1,442 @@
+"Identifier","Source String","Context","Translation"
+"PerseusInternalMessages. The symbol { sentenceSymbol } indicates that the following sentence is referenced in a question."," The symbol { sentenceSymbol } indicates that the following sentence is referenced in a question.","
+-- CONTEXT --
+"," Знакът { sentenceSymbol } означава, че това изречение е споменато във въпрос."
+"PerseusInternalMessages.'None of the above' may not be selected when other answers are selected.","'None of the above' may not be selected when other answers are selected.","
+-- CONTEXT --
+","""Нито един от горните"" не може да бъде избран, когато други отговори са избрани."
+"PerseusInternalMessages.(Choice { letter })","(Choice { letter })","
+-- CONTEXT --
+","(Избор { letter })"
+"PerseusInternalMessages.(Choice { letter }, Checked)","(Choice { letter }, Checked)","
+-- CONTEXT --
+","(Избор{ letter }, Проверен)"
+"PerseusInternalMessages.(Choice { letter }, Checked, Correct)","(Choice { letter }, Checked, Correct)","
+-- CONTEXT --
+","(Избор { letter }, Проверен, Верен)"
+"PerseusInternalMessages.(Choice { letter }, Checked, Incorrect)","(Choice { letter }, Checked, Incorrect)","
+-- CONTEXT --
+","(Избор { letter }, Проверен, Грешен)"
+"PerseusInternalMessages.(Choice { letter }, Correct Answer)","(Choice { letter }, Correct Answer)","
+-- CONTEXT --
+","(Избор { letter }, Верен отговор)"
+"PerseusInternalMessages.**Your answer should be** ","**Your answer should be** ","
+-- CONTEXT --
+","**Отговорът ти трябва да бъде** "
+"PerseusInternalMessages.A B C D E F G H I J K L M N O P Q R S T U V W X Y Z","A B C D E F G H I J K L M N O P Q R S T U V W X Y Z","
+-- CONTEXT --
+","А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я"
+"PerseusInternalMessages.A free world-class education for { who }.","A free world-class education for { who }.","
+-- CONTEXT --
+","Безплатно образование на световно ниво за { who }."
+"PerseusInternalMessages.Add highlight","Add highlight","
+-- CONTEXT --
+","Добави маркер"
+"PerseusInternalMessages.Beginning of reading passage footnotes.","Beginning of reading passage footnotes.","
+-- CONTEXT --
+","Начало на бележките по откъса за четене."
+"PerseusInternalMessages.Beginning of reading passage.","Beginning of reading passage.","
+-- CONTEXT --
+","Начало на откъса за четене."
+"PerseusInternalMessages.Check","Check","
+-- CONTEXT --
+","Проверка"
+"PerseusInternalMessages.Check your significant figures.","Check your significant figures.","
+-- CONTEXT --
+","Провери значещите цифри."
+"PerseusInternalMessages.Check your units.","Check your units.","
+-- CONTEXT --
+","Провери мерните единици."
+"PerseusInternalMessages.Choose 1 answer:","Choose 1 answer:","
+-- CONTEXT --
+","Избери 1 отговор:"
+"PerseusInternalMessages.Choose all answers that apply:","Choose all answers that apply:","
+-- CONTEXT --
+","Избери всички правилни отговори:"
+"PerseusInternalMessages.Choose { numCorrect } answers:","Choose { numCorrect } answers:","
+-- CONTEXT --
+","Избери { numCorrect } отговора:"
+"PerseusInternalMessages.Click on the tiles to change the lights.","Click on the tiles to change the lights.","
+-- CONTEXT --
+","Щракни върху плочките, за да промениш светлините."
+"PerseusInternalMessages.Click to add points","Click to add points","
+-- CONTEXT --
+","Щракни, за да добавиш точки"
+"PerseusInternalMessages.Click to add vertices","Click to add vertices","
+-- CONTEXT --
+","Щракни, за да добавиш върхове"
+"PerseusInternalMessages.Correct!","Correct!","
+-- CONTEXT --
+","Правилно!"
+"PerseusInternalMessages.Cosine","Cosine","
+-- CONTEXT --
+","Косинус"
+"PerseusInternalMessages.Cube","Cube","
+-- CONTEXT --
+","Куб"
+"PerseusInternalMessages.Cube root","Cube root","
+-- CONTEXT --
+","Кубичен корен"
+"PerseusInternalMessages.Custom exponent","Custom exponent","
+-- CONTEXT --
+","Променлив степенен показател"
+"PerseusInternalMessages.Decimal","Decimal","
+-- CONTEXT --
+","Десетичен знак"
+"PerseusInternalMessages.Delete","Delete","
+-- CONTEXT --
+","Изтриване"
+"PerseusInternalMessages.Dilate","Dilate","
+-- CONTEXT --
+","Приложи хомотетия"
+"PerseusInternalMessages.Dilation","Dilation","
+-- CONTEXT --
+","Хомотетия"
+"PerseusInternalMessages.Dilation about { point } by { scale }","Dilation about { point } by { scale }","
+-- CONTEXT --
+","Хомотетия с център { point } и с коефициент { scale }"
+"PerseusInternalMessages.Dilation of scale { scale } about { point }","Dilation of scale { scale } about { point }","
+-- CONTEXT --
+","Хомотетия с коефициент { scale } и с център { point }"
+"PerseusInternalMessages.Dismiss","Dismiss","
+-- CONTEXT --
+","Отхвърляне"
+"PerseusInternalMessages.Divide","Divide","
+-- CONTEXT --
+","Раздели"
+"PerseusInternalMessages.Down arrow","Down arrow","
+-- CONTEXT --
+","Стрелка надолу"
+"PerseusInternalMessages.End of reading passage.","End of reading passage.","
+-- CONTEXT --
+","Край на откъса за четене."
+"PerseusInternalMessages.Equals sign","Equals sign","
+-- CONTEXT --
+","Знак за равенство"
+"PerseusInternalMessages.Explain","Explain","
+-- CONTEXT --
+","Обяснение"
+"PerseusInternalMessages.False","False","
+-- CONTEXT --
+","Грешно"
+"PerseusInternalMessages.Fraction, excluding the current expression","Fraction, excluding the current expression","
+-- CONTEXT --
+","Обикновена дроб, с изключение на сегашния израз"
+"PerseusInternalMessages.Fraction, with current expression in numerator","Fraction, with current expression in numerator","
+-- CONTEXT --
+","Обикновена дроб със сегашния израз в числителя"
+"PerseusInternalMessages.Get another hint","Get another hint","
+-- CONTEXT --
+","Получи още една подсказка"
+"PerseusInternalMessages.Greater than or equal to sign","Greater than or equal to sign","
+-- CONTEXT --
+","Знак за по-голямо или равно"
+"PerseusInternalMessages.Greater than sign","Greater than sign","
+-- CONTEXT --
+","Знак за по-голямо"
+"PerseusInternalMessages.Hide explanation","Hide explanation","
+-- CONTEXT --
+","Скрий обяснението"
+"PerseusInternalMessages.Hint #{ pos }","Hint #{ pos }","
+-- CONTEXT --
+","Подсказка #{ pos }"
+"PerseusInternalMessages.Hints","Hints","
+-- CONTEXT --
+","Подсказки"
+"PerseusInternalMessages.I couldn't understand those units.","I couldn't understand those units.","
+-- CONTEXT --
+","Не можах да разбера тези мерни единици."
+"PerseusInternalMessages.I don't understand that","I don't understand that","
+-- CONTEXT --
+","Не разбирам това"
+"PerseusInternalMessages.Keep trying","Keep trying","
+-- CONTEXT --
+","Продължавай да опитваш"
+"PerseusInternalMessages.Khan Academy","Khan Academy","
+-- CONTEXT --
+","Кан Академия"
+"PerseusInternalMessages.Left arrow","Left arrow","
+-- CONTEXT --
+","Стрелка наляво"
+"PerseusInternalMessages.Left parenthesis","Left parenthesis","
+-- CONTEXT --
+","Лява скоба"
+"PerseusInternalMessages.Less than or equal to sign","Less than or equal to sign","
+-- CONTEXT --
+","Знак за по-малко или равно"
+"PerseusInternalMessages.Less than sign","Less than sign","
+-- CONTEXT --
+","Знак за по-малко"
+"PerseusInternalMessages.Logarithm with base 10","Logarithm with base 10","
+-- CONTEXT --
+","Логаритъма с основа 10"
+"PerseusInternalMessages.Logarithm with custom base","Logarithm with custom base","
+-- CONTEXT --
+","Логаритъм с променлива основа"
+"PerseusInternalMessages.Make circle filled","Make circle filled","
+-- CONTEXT --
+","Направи кръга запълнен"
+"PerseusInternalMessages.Make circle open","Make circle open","
+-- CONTEXT --
+","Направи кръга отворен"
+"PerseusInternalMessages.Make sure you fill in all cells in the matrix.","Make sure you fill in all cells in the matrix.","
+-- CONTEXT --
+","Увери се, че всички клетки в матрицата са попълнени."
+"PerseusInternalMessages.Make sure you select something for every row.","Make sure you select something for every row.","
+-- CONTEXT --
+","Увери се, че имаш избрано нещо за всеки ред."
+"PerseusInternalMessages.Math input box","Math input box","
+-- CONTEXT --
+","Поле за въвеждане (математика)"
+"PerseusInternalMessages.Minus","Minus","
+-- CONTEXT --
+","Минус"
+"PerseusInternalMessages.Multiply","Multiply","
+-- CONTEXT --
+","Умножи"
+"PerseusInternalMessages.Natural logarithm","Natural logarithm","
+-- CONTEXT --
+","Натурален логаритъм"
+"PerseusInternalMessages.Navigate right into the numerator of a fraction","Navigate right into the numerator of a fraction","
+-- CONTEXT --
+","Отиди надясно от числителя на дробта"
+"PerseusInternalMessages.Navigate right out of a base","Navigate right out of a base","
+-- CONTEXT --
+","Отиди надясно от основата"
+"PerseusInternalMessages.Navigate right out of a set of parentheses","Navigate right out of a set of parentheses","
+-- CONTEXT --
+","Отиди надясно от скобите"
+"PerseusInternalMessages.Navigate right out of an exponent","Navigate right out of an exponent","
+-- CONTEXT --
+","Отиди надясно от степенния показател"
+"PerseusInternalMessages.Navigate right out of the denominator of a fraction","Navigate right out of the denominator of a fraction","
+-- CONTEXT --
+","Отиди надясно от знаменателя на дробта"
+"PerseusInternalMessages.Navigate right out of the numerator and into the denominator","Navigate right out of the numerator and into the denominator","
+-- CONTEXT --
+","Отиди надясно от числителя и в знаменателя"
+"PerseusInternalMessages.Negative","Negative","
+-- CONTEXT --
+","Отрицателно"
+"PerseusInternalMessages.Next question","Next question","
+-- CONTEXT --
+","Следващ въпрос"
+"PerseusInternalMessages.No","No","
+-- CONTEXT --
+","Не"
+"PerseusInternalMessages.None of the above","None of the above","
+-- CONTEXT --
+","Никое от изброените"
+"PerseusInternalMessages.Not-equals sign","Not-equals sign","
+-- CONTEXT --
+","Знак за неравенство"
+"PerseusInternalMessages.Number of divisions:","Number of divisions:","
+-- CONTEXT --
+","Брой деления:"
+"PerseusInternalMessages.Percent","Percent","
+-- CONTEXT --
+","Процент"
+"PerseusInternalMessages.Pi","Pi","
+-- CONTEXT --
+","Пи"
+"PerseusInternalMessages.Please choose the correct number of answers.","Please choose the correct number of answers.","
+-- CONTEXT --
+","Моля, избери правилния брой отговори."
+"PerseusInternalMessages.Please make sure the number of divisions is in the range { divRangeString }.","Please make sure the number of divisions is in the range { divRangeString }.","
+-- CONTEXT --
+","Моля, увери се, че броят на деленията е в диапазона { divRangeString }."
+"PerseusInternalMessages.Plus","Plus","
+-- CONTEXT --
+","Плюс"
+"PerseusInternalMessages.Radical with custom root","Radical with custom root","
+-- CONTEXT --
+","Радикал с променлив корен"
+"PerseusInternalMessages.Reflect","Reflect","
+-- CONTEXT --
+","Проектирай при осева симетрия"
+"PerseusInternalMessages.Reflection","Reflection","
+-- CONTEXT --
+","Осева симетрия"
+"PerseusInternalMessages.Reflection over the line from { point1 } to { point2 }","Reflection over the line from { point1 } to { point2 }","
+-- CONTEXT --
+","Изобразяване при осева симетрия през права от { point1 } до { point2 }"
+"PerseusInternalMessages.Remove highlight","Remove highlight","
+-- CONTEXT --
+","Премахни маркер"
+"PerseusInternalMessages.Right arrow","Right arrow","
+-- CONTEXT --
+","Стрелка надясно"
+"PerseusInternalMessages.Right parenthesis","Right parenthesis","
+-- CONTEXT --
+","Дясна скоба"
+"PerseusInternalMessages.Rotate","Rotate","
+-- CONTEXT --
+","Извърши ротация"
+"PerseusInternalMessages.Rotation","Rotation","
+-- CONTEXT --
+","Ротация"
+"PerseusInternalMessages.Rotation about { point } by { degrees }","Rotation about { point } by { degrees }","
+-- CONTEXT --
+","Ротация с център { point } от { degrees }"
+"PerseusInternalMessages.Rotation by { degrees } about { point }","Rotation by { degrees } about { point }","
+-- CONTEXT --
+","Ротация от { degrees } с център { point }"
+"PerseusInternalMessages.Run simulation","Run simulation","
+-- CONTEXT --
+","Стартиране на симулация"
+"PerseusInternalMessages.Show the last step","Show the last step","
+-- CONTEXT --
+","Покажи последната стъпка"
+"PerseusInternalMessages.Show the next step","Show the next step","
+-- CONTEXT --
+","Покажи следващата стъпка"
+"PerseusInternalMessages.Sine","Sine","
+-- CONTEXT --
+","Синус"
+"PerseusInternalMessages.Sorry, I don't understand that!","Sorry, I don't understand that!","
+-- CONTEXT --
+","Съжалявам, но не разбирам това!"
+"PerseusInternalMessages.Square","Square","
+-- CONTEXT --
+","Квадрат"
+"PerseusInternalMessages.Square root","Square root","
+-- CONTEXT --
+","Квадратен корен"
+"PerseusInternalMessages.Steps","Steps","
+-- CONTEXT --
+","Стъпки"
+"PerseusInternalMessages.Switch direction","Switch direction","
+-- CONTEXT --
+","Превключване на посоката"
+"PerseusInternalMessages.Tangent","Tangent","
+-- CONTEXT --
+","Тангенс"
+"PerseusInternalMessages.That answer is numerically incorrect.","That answer is numerically incorrect.","
+-- CONTEXT --
+","Този отговор е числено неправилен."
+"PerseusInternalMessages.The symbol { questionSymbol } indicates that question { questionNumber } references this portion of the passage.","The symbol { questionSymbol } indicates that question { questionNumber } references this portion of the passage.","
+-- CONTEXT --
+","Знакът { questionSymbol } показва, че въпрос { questionNumber } се отнася за тази част от откъса."
+"PerseusInternalMessages.Theta","Theta","
+-- CONTEXT --
+","Тита"
+"PerseusInternalMessages.Translate","Translate","
+-- CONTEXT --
+","Преведи"
+"PerseusInternalMessages.Translation","Translation","
+-- CONTEXT --
+","Превод"
+"PerseusInternalMessages.Translation by { vector }","Translation by { vector }","
+-- CONTEXT --
+","Превод от { vector }"
+"PerseusInternalMessages.True","True","
+-- CONTEXT --
+","Вярно"
+"PerseusInternalMessages.Try again","Try again","
+-- CONTEXT --
+","Опитай отново"
+"PerseusInternalMessages.Up arrow","Up arrow","
+-- CONTEXT --
+","Стрелка нагоре"
+"PerseusInternalMessages.Use the interactive graph to define a correct transformation.","Use the interactive graph to define a correct transformation.","
+-- CONTEXT --
+","Използвай интерактивната графика, за да определиш правилната трансформация."
+"PerseusInternalMessages.We could not understand your answer. Please check your answer for extra text or symbols.","We could not understand your answer. Please check your answer for extra text or symbols.","
+-- CONTEXT --
+","Не можахме да разберем твоя отговор. Моля, провери отговора си за допълнителен текст или символи."
+"PerseusInternalMessages.Yes","Yes","
+-- CONTEXT --
+","Да"
+"PerseusInternalMessages.You must turn on all of the lights to continue.","You must turn on all of the lights to continue.","
+-- CONTEXT --
+","Трябва да включиш всички светлини, за да продължиш."
+"PerseusInternalMessages.Your answer is almost correct, but it is missing a <code>%</code> at the end.","Your answer is almost correct, but it is missing a <code>\\%</code> at the end.","
+-- CONTEXT --
+","Отговорът ти е почти правилен, но му липсва <code>\\%</code> в края."
+"PerseusInternalMessages.Your answer is almost correct, but it needs to be simplified.","Your answer is almost correct, but it needs to be simplified.","
+-- CONTEXT --
+","Отговорът е почти правилен, но трябва да бъде опростен."
+"PerseusInternalMessages.Your answer is close, but you may have approximated pi. Enter your answer as a multiple of pi, like <code>12 text{pi}</code> or <code>2/3 text{pi}</code>","Your answer is close, but you may have approximated pi. Enter your answer as a multiple of pi, like <code>12\\ \\text{pi}</code> or <code>2/3\\ \\text{pi}</code>","
+-- CONTEXT --
+","Отговорът ти е много близо, но може би е използвано приближение на pi. Въведи отговора си като произведение на pi, например <code>12\\ \\text{pi}</code> or <code>2/3\\ \\text{pi}</code>"
+"PerseusInternalMessages.Your answer:","Your answer:","
+-- CONTEXT --
+","Твоят отговор:"
+"PerseusInternalMessages.Your transformation must use a { type }.","Your transformation must use a { type }.","
+-- CONTEXT --
+","Трансформацията трябва да използва { type }."
+"PerseusInternalMessages.[Circle marker { number }]","[Circle marker { number }]","
+-- CONTEXT --
+","[Маркер за кръг { number }]"
+"PerseusInternalMessages.[Marker for question { number }]","[Marker for question { number }]","
+-- CONTEXT --
+","[Маркер за въпрос { number }]"
+"PerseusInternalMessages.[Sentence { number }]","[Sentence { number }]","
+-- CONTEXT --
+","[Изречение { number }]"
+"PerseusInternalMessages.a *proper* fraction, like $1/2$ or $6/10$","a *proper* fraction, like $1/2$ or $6/10$","
+-- CONTEXT --
+","*обикновена* дроб като $1/2$ или $6/10$"
+"PerseusInternalMessages.a *simplified improper* fraction, like $7/4$","a *simplified improper* fraction, like $7/4$","
+-- CONTEXT --
+","*съкратена неправилна* дроб като $7/4$"
+"PerseusInternalMessages.a *simplified proper* fraction, like $3/5$","a *simplified proper* fraction, like $3/5$","
+-- CONTEXT --
+","*съкратена обикновена* дроб като $3/5$"
+"PerseusInternalMessages.a mixed number, like $1 3/4$","a mixed number, like $1\\ 3/4$","
+-- CONTEXT --
+","смесено число като $1\\ 3/4$"
+"PerseusInternalMessages.a multiple of pi, like $12 text{pi}$ or $2/3 text{pi}$","a multiple of pi, like $12\\ \\text{pi}$ or $2/3\\ \\text{pi}$","
+-- CONTEXT --
+","кратно на числото pi като $12\\ \\text{pi}$ или $2/3\\ \\text{pi}$"
+"PerseusInternalMessages.a percent, like $12.34%$","a percent, like $12.34\\%$","
+-- CONTEXT --
+","процент като $12{,}34\\%$"
+"PerseusInternalMessages.an *exact* decimal, like $0.75$","an *exact* decimal, like $0.75$","
+-- CONTEXT --
+","*точна* десетична дроб като $0{,}75$"
+"PerseusInternalMessages.an *improper* fraction, like $10/7$ or $14/8$","an *improper* fraction, like $10/7$ or $14/8$","
+-- CONTEXT --
+","*неправилна* дроб като $10/7$ или $14/8$"
+"PerseusInternalMessages.an integer, like $6$","an integer, like $6$","
+-- CONTEXT --
+","цяло число като $6$"
+"PerseusInternalMessages.dilation","dilation","
+-- CONTEXT --
+","хомотетия"
+"PerseusInternalMessages.line { lineNumber }","line { lineNumber }","
+-- CONTEXT --
+","линия { lineNumber }"
+"PerseusInternalMessages.lines { lineRange }","lines { lineRange }","
+-- CONTEXT --
+","линии { lineRange }"
+"PerseusInternalMessages.reflection","reflection","
+-- CONTEXT --
+","осева симетрия"
+"PerseusInternalMessages.rotation","rotation","
+-- CONTEXT --
+","ротация"
+"PerseusInternalMessages.translation","translation","
+-- CONTEXT --
+","превод"
+"PerseusRendererIndex.hint","Use a hint ({hintsLeft, number} left)","
+-- CONTEXT --
+","Използвай подсказка (остават {hintsLeft, number})"
+"PerseusRendererIndex.hintExplanation","If you use a hint, this question will not be added to your progress","
+-- CONTEXT --
+","Ако използваш подсказка, този въпрос няма да бъде добавен към напредъка ти"
+"PerseusRendererIndex.hintLabel","Hint:","
+-- CONTEXT --
+","Подсказка:"
+"PerseusRendererIndex.loading","Loading","
+-- CONTEXT --
+","Зареждане"
+"PerseusRendererIndex.noMoreHint","No more hints","
+-- CONTEXT --
+","Няма повече подсказки"
+"PerseusRendererIndex.notAvailable","The scratchpad is not available","
+-- CONTEXT --
+","Бележникът не е достъпен"
+"PerseusRendererIndex.showScratch","Show scratchpad","
+-- CONTEXT --
+","Покажи бележника"

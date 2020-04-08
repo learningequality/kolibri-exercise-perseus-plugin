@@ -1,0 +1,442 @@
+"Identifier","Source String","Context","Translation"
+"PerseusInternalMessages. The symbol { sentenceSymbol } indicates that the following sentence is referenced in a question."," The symbol { sentenceSymbol } indicates that the following sentence is referenced in a question.","
+-- CONTEXT --
+"," { sentenceSymbol } चिन्ह सूचित करता है कि एक प्रश्न में निम्नलिखित वाक्य का संदर्भ दिया गया है|"
+"PerseusInternalMessages.'None of the above' may not be selected when other answers are selected.","'None of the above' may not be selected when other answers are selected.","
+-- CONTEXT --
+","अन्य जवाब चयनित करने पर, 'उपरोक्त में से कोई नहीं' चुना नहीं जा सकता|"
+"PerseusInternalMessages.(Choice { letter })","(Choice { letter })","
+-- CONTEXT --
+","(विकल्प { letter })"
+"PerseusInternalMessages.(Choice { letter }, Checked)","(Choice { letter }, Checked)","
+-- CONTEXT --
+","(विकल्प { letter }, जाँच किया गया)"
+"PerseusInternalMessages.(Choice { letter }, Checked, Correct)","(Choice { letter }, Checked, Correct)","
+-- CONTEXT --
+","(विकल्प{ letter }, जाँच किया गया, सही)"
+"PerseusInternalMessages.(Choice { letter }, Checked, Incorrect)","(Choice { letter }, Checked, Incorrect)","
+-- CONTEXT --
+","(विकल्प { letter }, जाँच किया गया, गलत)"
+"PerseusInternalMessages.(Choice { letter }, Correct Answer)","(Choice { letter }, Correct Answer)","
+-- CONTEXT --
+","(विकल्प { letter }, सही )"
+"PerseusInternalMessages.**Your answer should be** ","**Your answer should be** ","
+-- CONTEXT --
+","**आपका उत्तर होना चाहिए**"
+"PerseusInternalMessages.A B C D E F G H I J K L M N O P Q R S T U V W X Y Z","A B C D E F G H I J K L M N O P Q R S T U V W X Y Z","
+-- CONTEXT --
+","ए बी सी डी ई एफ जी एच आई जे के एल एम एन ओ पी क्यू आर एस टी यू वी डब्ल्यू एक्स वाई ज़ेड"
+"PerseusInternalMessages.A free world-class education for { who }.","A free world-class education for { who }.","
+-- CONTEXT --
+","{ who } के लिए नि: शुल्क विश्व स्तरीय शिक्षा ।"
+"PerseusInternalMessages.Add highlight","Add highlight","
+-- CONTEXT --
+","हाइलाइट जोड़ें"
+"PerseusInternalMessages.Beginning of reading passage footnotes.","Beginning of reading passage footnotes.","
+-- CONTEXT --
+","पठन अनुच्छेद टिपण्णी का प्रारंभ|"
+"PerseusInternalMessages.Beginning of reading passage.","Beginning of reading passage.","
+-- CONTEXT --
+","पठन अनुच्छेद का प्रारंभ|"
+"PerseusInternalMessages.Check","Check","
+-- CONTEXT --
+","जाँचें "
+"PerseusInternalMessages.Check your significant figures.","Check your significant figures.","
+-- CONTEXT --
+","आपके महत्वपूर्ण आंकड़ों की जाँच करें।"
+"PerseusInternalMessages.Check your units.","Check your units.","
+-- CONTEXT --
+","अपनी इकाईया ले।"
+"PerseusInternalMessages.Choose 1 answer:","Choose 1 answer:","
+-- CONTEXT --
+","१ उत्तर चुनें:"
+"PerseusInternalMessages.Choose all answers that apply:","Choose all answers that apply:","
+-- CONTEXT --
+","लागू होने वाले सभी उत्तर चुनें:"
+"PerseusInternalMessages.Choose { numCorrect } answers:","Choose { numCorrect } answers:","
+-- CONTEXT --
+","{ numCorrect } उत्तर चुनें:"
+"PerseusInternalMessages.Click on the tiles to change the lights.","Click on the tiles to change the lights.","
+-- CONTEXT --
+","रोशनी को बदलने के लिए टाइल पर क्लिक करें।"
+"PerseusInternalMessages.Click to add points","Click to add points","
+-- CONTEXT --
+","बिंदुओं को जोड़ने के लिए क्लिक करें"
+"PerseusInternalMessages.Click to add vertices","Click to add vertices","
+-- CONTEXT --
+","शीर्ष बनाने के लिए क्लिक करें"
+"PerseusInternalMessages.Correct!","Correct!","
+-- CONTEXT --
+","सही!"
+"PerseusInternalMessages.Cosine","Cosine","
+-- CONTEXT --
+","कोसाइन"
+"PerseusInternalMessages.Cube","Cube","
+-- CONTEXT --
+","घन"
+"PerseusInternalMessages.Cube root","Cube root","
+-- CONTEXT --
+","घन मूल"
+"PerseusInternalMessages.Custom exponent","Custom exponent","
+-- CONTEXT --
+","विशिष्ट घातांक"
+"PerseusInternalMessages.Decimal","Decimal","
+-- CONTEXT --
+","दशमलव"
+"PerseusInternalMessages.Delete","Delete","
+-- CONTEXT --
+","मिटाएँ"
+"PerseusInternalMessages.Dilate","Dilate","
+-- CONTEXT --
+","चौड़ा करना"
+"PerseusInternalMessages.Dilation","Dilation","
+-- CONTEXT --
+","विस्तारण"
+"PerseusInternalMessages.Dilation about { point } by { scale }","Dilation about { point } by { scale }","
+-- CONTEXT --
+","फैलाव के { scale } द्वारा { point } के बारे में"
+"PerseusInternalMessages.Dilation of scale { scale } about { point }","Dilation of scale { scale } about { point }","
+-- CONTEXT --
+","{ point } के बारे में स्केल { scale } का फैलाव"
+"PerseusInternalMessages.Dismiss","Dismiss","
+-- CONTEXT --
+","ख़ारिज करें"
+"PerseusInternalMessages.Divide","Divide","
+-- CONTEXT --
+","विभाजन"
+"PerseusInternalMessages.Down arrow","Down arrow","
+-- CONTEXT --
+","नीचे की ओर तीर"
+"PerseusInternalMessages.End of reading passage.","End of reading passage.","
+-- CONTEXT --
+","पठन अनुच्छेद का अंत|"
+"PerseusInternalMessages.Equals sign","Equals sign","
+-- CONTEXT --
+","समता चिन्ह"
+"PerseusInternalMessages.Explain","Explain","
+-- CONTEXT --
+","समझाएँ"
+"PerseusInternalMessages.False","False","
+-- CONTEXT --
+","गलत "
+"PerseusInternalMessages.Fraction, excluding the current expression","Fraction, excluding the current expression","
+-- CONTEXT --
+","भिन्न, वर्तमान व्यंजक को छोड़कर"
+"PerseusInternalMessages.Fraction, with current expression in numerator","Fraction, with current expression in numerator","
+-- CONTEXT --
+","भिन्न, अंश-गणक में वर्तमान व्यंजक के साथ"
+"PerseusInternalMessages.Get another hint","Get another hint","
+-- CONTEXT --
+","एक और संकेत दें"
+"PerseusInternalMessages.Greater than or equal to sign","Greater than or equal to sign","
+-- CONTEXT --
+","से अधिक या बराबर का चिन्ह"
+"PerseusInternalMessages.Greater than sign","Greater than sign","
+-- CONTEXT --
+","से अधिक चिन्ह"
+"PerseusInternalMessages.Hide explanation","Hide explanation","
+-- CONTEXT --
+","स्पष्टीकरण को छिपाएँ|"
+"PerseusInternalMessages.Hint #{ pos }","Hint #{ pos }","
+-- CONTEXT --
+","हिंट #{ pos }"
+"PerseusInternalMessages.Hints","Hints","
+-- CONTEXT --
+","संकेत"
+"PerseusInternalMessages.I couldn't understand those units.","I couldn't understand those units.","
+-- CONTEXT --
+","मैं उन इकाइयों नहीं समझ सकता है।"
+"PerseusInternalMessages.I don't understand that","I don't understand that","
+-- CONTEXT --
+","मुझे यह समझ नहीं आता"
+"PerseusInternalMessages.Keep trying","Keep trying","
+-- CONTEXT --
+","प्रयास करते रहें"
+"PerseusInternalMessages.Khan Academy","Khan Academy","
+-- CONTEXT --
+","खान अकेडमी"
+"PerseusInternalMessages.Left arrow","Left arrow","
+-- CONTEXT --
+","बायां तीर"
+"PerseusInternalMessages.Left parenthesis","Left parenthesis","
+-- CONTEXT --
+","बायां कोष्ठक"
+"PerseusInternalMessages.Less than or equal to sign","Less than or equal to sign","
+-- CONTEXT --
+","से कम या बराबर का चिन्ह"
+"PerseusInternalMessages.Less than sign","Less than sign","
+-- CONTEXT --
+","से कम चिन्ह"
+"PerseusInternalMessages.Logarithm with base 10","Logarithm with base 10","
+-- CONTEXT --
+","आधार 10 का लघुगणक"
+"PerseusInternalMessages.Logarithm with custom base","Logarithm with custom base","
+-- CONTEXT --
+","विशिष्ट आधार का लघुगणक"
+"PerseusInternalMessages.Make circle filled","Make circle filled","
+-- CONTEXT --
+","भरा हुआ वृत्त बनाए"
+"PerseusInternalMessages.Make circle open","Make circle open","
+-- CONTEXT --
+","वृत्त खुला बनाए"
+"PerseusInternalMessages.Make sure you fill in all cells in the matrix.","Make sure you fill in all cells in the matrix.","
+-- CONTEXT --
+","सुनिश्चित करें कि आप मैट्रिक्स में सभी कक्षों में भरे।"
+"PerseusInternalMessages.Make sure you select something for every row.","Make sure you select something for every row.","
+-- CONTEXT --
+","सुनिश्चित करें कि आप प्रत्येक पंक्ति के लिए कुछ चुनें।"
+"PerseusInternalMessages.Math input box","Math input box","
+-- CONTEXT --
+","गणित इनपुट बक्सा"
+"PerseusInternalMessages.Minus","Minus","
+-- CONTEXT --
+","घटाना"
+"PerseusInternalMessages.Multiply","Multiply","
+-- CONTEXT --
+","गुणा करना"
+"PerseusInternalMessages.Natural logarithm","Natural logarithm","
+-- CONTEXT --
+","प्राकृतिक लघुगणक"
+"PerseusInternalMessages.Navigate right into the numerator of a fraction","Navigate right into the numerator of a fraction","
+-- CONTEXT --
+","भिन्न के अंश-गणक में जाएँ"
+"PerseusInternalMessages.Navigate right out of a base","Navigate right out of a base","
+-- CONTEXT --
+","किसी आधार के बाहर संचालन करें"
+"PerseusInternalMessages.Navigate right out of a set of parentheses","Navigate right out of a set of parentheses","
+-- CONTEXT --
+","कोष्ठक के समूह से बाहर निकलें"
+"PerseusInternalMessages.Navigate right out of an exponent","Navigate right out of an exponent","
+-- CONTEXT --
+","किसी घातांक से बाहर निकलें"
+"PerseusInternalMessages.Navigate right out of the denominator of a fraction","Navigate right out of the denominator of a fraction","
+-- CONTEXT --
+","भिन्न के भाजक के बाहर जाएँ"
+"PerseusInternalMessages.Navigate right out of the numerator and into the denominator","Navigate right out of the numerator and into the denominator","
+-- CONTEXT --
+","अंश-गणक से बाहर और भाजक के अंदर जाएँ"
+"PerseusInternalMessages.Negative","Negative","
+-- CONTEXT --
+","ऋणात्मक"
+"PerseusInternalMessages.Next question","Next question","
+-- CONTEXT --
+","अगला प्रश्न"
+"PerseusInternalMessages.No","No","
+-- CONTEXT --
+","नहीं"
+"PerseusInternalMessages.None of the above","None of the above","
+-- CONTEXT --
+","उपर्युक्त में से कोई भी नहीं"
+"PerseusInternalMessages.Not-equals sign","Not-equals sign","
+-- CONTEXT --
+","बराबर नहीं चिन्ह"
+"PerseusInternalMessages.Number of divisions:","Number of divisions:","
+-- CONTEXT --
+","विभाजनों की संख्या:"
+"PerseusInternalMessages.Percent","Percent","
+-- CONTEXT --
+","प्रतिशत"
+"PerseusInternalMessages.Pi","Pi","
+-- CONTEXT --
+","पाई"
+"PerseusInternalMessages.Please choose the correct number of answers.","Please choose the correct number of answers.","
+-- CONTEXT --
+","कृपया उत्तरों की सही संख्या चुनें ।"
+"PerseusInternalMessages.Please make sure the number of divisions is in the range { divRangeString }.","Please make sure the number of divisions is in the range { divRangeString }.","
+-- CONTEXT --
+","कृपया सुनिश्चित करें कि विभाजन की संख्या{ divRangeString } की रेंज में है।"
+"PerseusInternalMessages.Plus","Plus","
+-- CONTEXT --
+","जोड़ना"
+"PerseusInternalMessages.Radical with custom root","Radical with custom root","
+-- CONTEXT --
+","विशिष्ट मूल के साथ कर्णी"
+"PerseusInternalMessages.Reflect","Reflect","
+-- CONTEXT --
+","प्रतिबिंबित"
+"PerseusInternalMessages.Reflection","Reflection","
+-- CONTEXT --
+"," परावर्तन"
+"PerseusInternalMessages.Reflection over the line from { point1 } to { point2 }","Reflection over the line from { point1 } to { point2 }","
+-- CONTEXT --
+","{ point2 } को { point1 } से रेखा पर प्रतिबिंब"
+"PerseusInternalMessages.Remove highlight","Remove highlight","
+-- CONTEXT --
+","हाइलाइट हटाएँ"
+"PerseusInternalMessages.Right arrow","Right arrow","
+-- CONTEXT --
+","दायां तीर"
+"PerseusInternalMessages.Right parenthesis","Right parenthesis","
+-- CONTEXT --
+","दायां कोष्ठक"
+"PerseusInternalMessages.Rotate","Rotate","
+-- CONTEXT --
+","रोटेट करें"
+"PerseusInternalMessages.Rotation","Rotation","
+-- CONTEXT --
+","घूर्णन"
+"PerseusInternalMessages.Rotation about { point } by { degrees }","Rotation about { point } by { degrees }","
+-- CONTEXT --
+","रोटेशन { degrees } द्वारा { point } के बारे में"
+"PerseusInternalMessages.Rotation by { degrees } about { point }","Rotation by { degrees } about { point }","
+-- CONTEXT --
+","{ point } के बारे में { degrees } द्वारा रोटेशन"
+"PerseusInternalMessages.Run simulation","Run simulation","
+-- CONTEXT --
+","सिमुलेशन चलाए"
+"PerseusInternalMessages.Show the last step","Show the last step","
+-- CONTEXT --
+","अंतिम चरण दिखाएँ"
+"PerseusInternalMessages.Show the next step","Show the next step","
+-- CONTEXT --
+","अगला चरण दिखाएँ"
+"PerseusInternalMessages.Sine","Sine","
+-- CONTEXT --
+","साइन"
+"PerseusInternalMessages.Sorry, I don't understand that!","Sorry, I don't understand that!","
+-- CONTEXT --
+","माफ़ कीजिये मैं यह समझा नहीं!"
+"PerseusInternalMessages.Square","Square","
+-- CONTEXT --
+","वर्ग"
+"PerseusInternalMessages.Square root","Square root","
+-- CONTEXT --
+","वर्ग मूल"
+"PerseusInternalMessages.Steps","Steps","
+-- CONTEXT --
+","चरण"
+"PerseusInternalMessages.Switch direction","Switch direction","
+-- CONTEXT --
+","दिशा बदलें"
+"PerseusInternalMessages.Tangent","Tangent","
+-- CONTEXT --
+","टैंजेंट"
+"PerseusInternalMessages.That answer is numerically incorrect.","That answer is numerically incorrect.","
+-- CONTEXT --
+","यह उत्तर संख्यात्मक रूम से गलत है।"
+"PerseusInternalMessages.The symbol { questionSymbol } indicates that question { questionNumber } references this portion of the passage.","The symbol { questionSymbol } indicates that question { questionNumber } references this portion of the passage.","
+-- CONTEXT --
+","{ questionSymbol } चिन्ह सूचित करता है कि वह प्रश्न { questionNumber } अनुछेद के इस भाग का जिक्र करता है।"
+"PerseusInternalMessages.Theta","Theta","
+-- CONTEXT --
+","थीटा"
+"PerseusInternalMessages.Translate","Translate","
+-- CONTEXT --
+","अनुवाद"
+"PerseusInternalMessages.Translation","Translation","
+-- CONTEXT --
+","स्थानांतरण"
+"PerseusInternalMessages.Translation by { vector }","Translation by { vector }","
+-- CONTEXT --
+","{ vector } द्वारा अनुवाद"
+"PerseusInternalMessages.True","True","
+-- CONTEXT --
+","सही "
+"PerseusInternalMessages.Try again","Try again","
+-- CONTEXT --
+","दोबारा कोशिश करें"
+"PerseusInternalMessages.Up arrow","Up arrow","
+-- CONTEXT --
+","ऊपर की ओर तीर"
+"PerseusInternalMessages.Use the interactive graph to define a correct transformation.","Use the interactive graph to define a correct transformation.","
+-- CONTEXT --
+","एक सही रूपांतरण को परिभाषित करने के लिए इंटरैक्टिव ग्राफ का उपयोग करें।"
+"PerseusInternalMessages.We could not understand your answer. Please check your answer for extra text or symbols.","We could not understand your answer. Please check your answer for extra text or symbols.","
+-- CONTEXT --
+","हम आपका जवाब समझ नहीं पाए । कृपया अतिरिक्त टेक्स्ट या प्रतीकों के लिए अपने जवाब की जांच करें ।"
+"PerseusInternalMessages.Yes","Yes","
+-- CONTEXT --
+","हाँ"
+"PerseusInternalMessages.You must turn on all of the lights to continue.","You must turn on all of the lights to continue.","
+-- CONTEXT --
+","आपको जारी रखने  बत्तियां चालू करना होगी।"
+"PerseusInternalMessages.Your answer is almost correct, but it is missing a <code>%</code> at the end.","Your answer is almost correct, but it is missing a <code>\\%</code> at the end.","
+-- CONTEXT --
+","आपका जवाब लगभग सही है, लेकिन उसके अंत में <code>\\%</code> की कमी है|"
+"PerseusInternalMessages.Your answer is almost correct, but it needs to be simplified.","Your answer is almost correct, but it needs to be simplified.","
+-- CONTEXT --
+","आपका जवाब लगभग सही है, लेकिन उसे आसान बनाने की ज़रूरत है।"
+"PerseusInternalMessages.Your answer is close, but you may have approximated pi. Enter your answer as a multiple of pi, like <code>12 text{pi}</code> or <code>2/3 text{pi}</code>","Your answer is close, but you may have approximated pi. Enter your answer as a multiple of pi, like <code>12\\ \\text{pi}</code> or <code>2/3\\ \\text{pi}</code>","
+-- CONTEXT --
+","आपका जवाब लगभग ठीक है है, लेकिन आपने शायद pi का सन्निकटन किया है| आपका जवाब pi के एक गुणक के रूप में दर्ज करें जैसे <code>12\\ \\text{pi}</code> or <code>2/3\\ \\text{pi}</code>"
+"PerseusInternalMessages.Your answer:","Your answer:","
+-- CONTEXT --
+","आपका जवाब:"
+"PerseusInternalMessages.Your transformation must use a { type }.","Your transformation must use a { type }.","
+-- CONTEXT --
+","आपके रूपांतरण में { type } का उपयोग करना होगा।"
+"PerseusInternalMessages.[Circle marker { number }]","[Circle marker { number }]","
+-- CONTEXT --
+","[सर्कल मार्कर { number }]"
+"PerseusInternalMessages.[Marker for question { number }]","[Marker for question { number }]","
+-- CONTEXT --
+","[मार्कर प्रश्न { number } के लिए]"
+"PerseusInternalMessages.[Sentence { number }]","[Sentence { number }]","
+-- CONTEXT --
+","[वाक्य { number }]"
+"PerseusInternalMessages.a *proper* fraction, like $1/2$ or $6/10$","a *proper* fraction, like $1/2$ or $6/10$","
+-- CONTEXT --
+","*उपयुक्त* भाग, जैसे $1/2$ या $6/10$"
+"PerseusInternalMessages.a *simplified improper* fraction, like $7/4$","a *simplified improper* fraction, like $7/4$","
+-- CONTEXT --
+","एक * $7/4$ की तरह सरलीकृत अनुचित * अंश"
+"PerseusInternalMessages.a *simplified proper* fraction, like $3/5$","a *simplified proper* fraction, like $3/5$","
+-- CONTEXT --
+","एक * $3/5$ की तरह सरलीकृत उचित * अंश"
+"PerseusInternalMessages.a mixed number, like $1 3/4$","a mixed number, like $1\\ 3/4$","
+-- CONTEXT --
+","एक मिश्रित संख्या, जैसे $१\\ ३ /४ $"
+"PerseusInternalMessages.a multiple of pi, like $12 text{pi}$ or $2/3 text{pi}$","a multiple of pi, like $12\\ \\text{pi}$ or $2/3\\ \\text{pi}$","
+-- CONTEXT --
+","pi का एक गुणज, जैसे $12\\ \\text{pi}$ or $2/3\\ \\text{pi}$"
+"PerseusInternalMessages.a percent, like $12.34%$","a percent, like $12.34\\%$","
+-- CONTEXT --
+","एक प्रतिशत, जैसे $१२. ३४ \\%$"
+"PerseusInternalMessages.an *exact* decimal, like $0.75$","an *exact* decimal, like $0.75$","
+-- CONTEXT --
+","एक * सटीक * दशमलव, जैसे कि 0.75 $$"
+"PerseusInternalMessages.an *improper* fraction, like $10/7$ or $14/8$","an *improper* fraction, like $10/7$ or $14/8$","
+-- CONTEXT --
+","*अनुपयुक्त* भाग, जैसे $10/7$ या $14/8$"
+"PerseusInternalMessages.an integer, like $6$","an integer, like $6$","
+-- CONTEXT --
+","6 $$ की तरह एक पूर्णांक,"
+"PerseusInternalMessages.dilation","dilation","
+-- CONTEXT --
+","फैलाव"
+"PerseusInternalMessages.line { lineNumber }","line { lineNumber }","
+-- CONTEXT --
+","लाइन { lineNumber }"
+"PerseusInternalMessages.lines { lineRange }","lines { lineRange }","
+-- CONTEXT --
+","लाइनें { lineRange }"
+"PerseusInternalMessages.reflection","reflection","
+-- CONTEXT --
+","प्रतिबिंब"
+"PerseusInternalMessages.rotation","rotation","
+-- CONTEXT --
+","रोटेशन"
+"PerseusInternalMessages.translation","translation","
+-- CONTEXT --
+","अनुवाद"
+"PerseusRendererIndex.hint","Use a hint ({hintsLeft, number} left)","
+-- CONTEXT --
+","संकेत का प्रयोग करें ({hintsLeft, number} बचे हैं)"
+"PerseusRendererIndex.hintExplanation","If you use a hint, this question will not be added to your progress","
+-- CONTEXT --
+","यदि आपने संकेत का उपयोग किया, तो यह सवाल आपकी प्रगति में नहीं जोड़ा जाएगा"
+"PerseusRendererIndex.hintLabel","Hint:","
+-- CONTEXT --
+","संकेत"
+"PerseusRendererIndex.loading","Loading","
+-- CONTEXT --
+","लोड हो रहा है"
+"PerseusRendererIndex.noMoreHint","No more hints","
+-- CONTEXT --
+","कोई और सुझाव नहीं"
+"PerseusRendererIndex.notAvailable","The scratchpad is not available","
+-- CONTEXT --
+","स्क्रैचपैड उपलब्ध नहीं है"
+"PerseusRendererIndex.showScratch","Show scratchpad","
+-- CONTEXT --
+","स्क्रैचपैड दिखाएँ"
