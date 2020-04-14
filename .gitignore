@@ -27,7 +27,7 @@ pip-log.txt
 
 # Translations
 *.mo
-exercise_perseus_renderer/locale
+kolibri_exercise_perseus_plugin/locale/CSV_FILES/**/*
 
 # Mr Developer
 .mr.developer.cfg
