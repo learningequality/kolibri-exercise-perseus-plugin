@@ -1,5 +1,5 @@
 {
-  "PerseusInternalMessages. The symbol { sentenceSymbol } indicates that the following sentence is referenced in a question.": " الرمز { sentenceSymbol } يشير إلى أن الجملة التالية قد تمّ الإشارة إليها في السؤال.",
+  "PerseusInternalMessages. The symbol { sentenceSymbol } indicates that the following sentence is referenced in a question.": " الرمز { sentenceSymbol } يشير إلى أن الجملة التالية قد تمّت الإشارة إليها في السؤال.",
   "PerseusInternalMessages.'None of the above' may not be selected when other answers are selected.": "لا يمكنك اختيار \"لا شيء مما سبق\" عند تحديد إجابات أخرى.",
   "PerseusInternalMessages.(Choice { letter })": "(الخيار { letter })",
   "PerseusInternalMessages.(Choice { letter }, Checked)": "(الخيار { letter }, تم تفحُّصه)",
