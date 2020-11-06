@@ -104,6 +104,7 @@
   import icu from '../KAGlobals/icu';
   import Khan from '../KAGlobals/Khan';
   import widgetSolver from '../widgetSolver';
+  import imageMissing from './image_missing.svg';
 
   // A handy convenience mapping to what is essentially a constructor for Item Renderer
   // components.
@@ -314,7 +315,9 @@
           logging.debug('Error during unmounting of item renderer', e);
         }
         for (let key in this.imageUrls) {
-          URL.revokeObjectURL(this.imageUrls[key]);
+          if (this.imageUrls[key].indexOf('blob:') === 0) {
+            URL.revokeObjectURL(this.imageUrls[key]);
+          }
           delete this.imageUrls[key];
         }
       },
@@ -439,7 +442,11 @@
           this.loading = true;
           this.loadPerseusFile()
             .then(() => {
-              return this.perseusFile.file(`${this.itemId}.json`).async('string');
+              const itemDataFile = this.perseusFile.file(`${this.itemId}.json`);
+              if (itemDataFile) {
+                return itemDataFile.async('string');
+              }
+              return Promise.reject(`item data for ${this.itemId} not found`);
             })
             .then(itemResponse => {
               const graphieImages = Object.keys(Array.from(itemResponse.matchAll(graphieRegex)).reduce((acc, value) => {
@@ -453,19 +460,32 @@
 
               const processFile = file => {
                 if (!this.imageUrls[file]) {
-                  return this.perseusFile.file(file).async('arraybuffer').then(buffer => {
-                    const ext = file.split('.').slice(-1)[0];
-                    let type;
+                  const fileData = this.perseusFile.file(file);
+                  const ext = file.split('.').slice(-1)[0];
+                  if (fileData) {
+                    return fileData.async('arraybuffer').then(buffer => {
+                      let type;
+                      if (ext === 'json') {
+                        type = 'application/json';
+                      } else if (ext === 'svg') {
+                        type = 'image/svg+xml';
+                      } else {
+                        type = `image/${ext}`;
+                      }
+                      const blob = new Blob([buffer], { type });
+                      this.imageUrls[file] = URL.createObjectURL(blob);
+                    });
+                  } else {
+                    // If the file is not present in the zip file, then fill in a missing image
+                    // file for images, and an empty dummy json file for json
+                    let url;
                     if (ext === 'json') {
-                      type = `application/json`;
-                    } else if (ext === 'svg') {
-                      type = 'image/svg+xml';
+                      url = 'data:application/json,';
                     } else {
-                      type = `image/${ext}`;
+                      url = imageMissing;
                     }
-                    const blob = new Blob([buffer], { type });
-                    this.imageUrls[file] = URL.createObjectURL(blob);
-                  });
+                    this.imageUrls[file] = url;
+                  }
                 }
                 return Promise.resolve();
               }
@@ -484,7 +504,7 @@
                   // Replace any placeholder values for image URLs with
                   // the base URL for the perseus file we are reading from
                   this.setItemData(JSON.parse(itemResponse.replace(imageRegex, (match, image) => {
-                    return this.imageUrls[image];
+                    return this.imageUrls[image] || imageMissing;
                   // Replace any placeholder values for image URLs with the `web+graphie:` prefix
                   // sepparately from any others, as they are parsed slightly differently to standard image
                   // urls (Perseus adds the protocol in place of `web+graphie:`).
