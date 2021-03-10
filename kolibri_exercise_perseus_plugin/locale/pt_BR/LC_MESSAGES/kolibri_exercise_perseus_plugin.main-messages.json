@@ -107,7 +107,7 @@
   "PerseusInternalMessages.The symbol { questionSymbol } indicates that question { questionNumber } references this portion of the passage.": "O símbolo { questionSymbol } indica que a pergunta { questionNumber } faz referência à essa parte do texto.",
   "PerseusInternalMessages.Theta": "Theta",
   "PerseusInternalMessages.Translate": "Traduzir",
-  "PerseusInternalMessages.Translation": "Tradução",
+  "PerseusInternalMessages.Translation": "Translação",
   "PerseusInternalMessages.Translation by { vector }": "Tradução por { vector }",
   "PerseusInternalMessages.True": "Verdadeiro",
   "PerseusInternalMessages.Try again": "Tentar novamente",

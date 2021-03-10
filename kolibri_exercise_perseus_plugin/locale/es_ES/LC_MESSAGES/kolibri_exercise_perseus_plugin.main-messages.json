@@ -32,7 +32,7 @@
   "PerseusInternalMessages.Dilation": "Homotecia",
   "PerseusInternalMessages.Dilation about { point } by { scale }": "Homtecia con respecto a { point } por { scale }",
   "PerseusInternalMessages.Dilation of scale { scale } about { point }": "Homotecia de escala { scale } con respecto a { point }",
-  "PerseusInternalMessages.Dismiss": "Descartar",
+  "PerseusInternalMessages.Dismiss": "Cerrar",
   "PerseusInternalMessages.Divide": "Dividir",
   "PerseusInternalMessages.Down arrow": "Flecha abajo",
   "PerseusInternalMessages.End of reading passage.": "Final del parágrafo de lectura.",
