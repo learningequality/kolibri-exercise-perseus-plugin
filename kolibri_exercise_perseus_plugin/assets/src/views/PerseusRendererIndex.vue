@@ -121,11 +121,9 @@
 
   const sorterWidgetRegex = /sorter [0-9]+/;
 
-  // Regex for all graphie images
-  const graphieRegex = /web\+graphie:\$\{☣ LOCALPATH\}\/([^)^"]+)/g;
-
-  // Regex for all non-graphie images
-  const imageRegex = /(?<!web\+graphie:)\$\{☣ LOCALPATH\}\/([^)^"]+)/g;
+  // Regex for all images, we use the differential matches in the first matching
+  // group to determine if it's a graphie image or a regular image.
+  const allImageRegex = /((web\+graphie:)?)\$\{☣ LOCALPATH\}\/([^)^"]+)/g;
 
   export default {
     name: 'PerseusRendererIndex',
@@ -449,14 +447,22 @@
               return Promise.reject(`item data for ${this.itemId} not found`);
             })
             .then(itemResponse => {
-              const graphieImages = Object.keys(Array.from(itemResponse.matchAll(graphieRegex)).reduce((acc, value) => {
-                acc[value[1]] = true;
-                return acc;
-              }, {}));
-              const images = Object.keys(Array.from(itemResponse.matchAll(imageRegex)).reduce((acc, value) => {
-                acc[value[1]] = true;
-                return acc;
-              }, {}));
+              const graphieMatches = {};
+              const imageMatches = {};
+              const matches = Array.from(itemResponse.matchAll(allImageRegex));
+
+              for (let i = 0; i < matches.length; i++) {
+                const match = matches[i];
+                if (match[1]) {
+                  // We have a match for the optional web+graphie matching group
+                  graphieMatches[match[3]] = true;
+                } else {
+                  imageMatches[match[3]] = true;
+                }
+              }
+
+              const graphieImages = Object.keys(graphieMatches);
+              const images = Object.keys(imageMatches);
 
               const processFile = file => {
                 if (!this.imageUrls[file]) {
@@ -501,15 +507,17 @@
                   return Promise.reject('error loading assessment item images');
                 })
                 .then(() => {
-                  // Replace any placeholder values for image URLs with
-                  // the base URL for the perseus file we are reading from
-                  this.setItemData(JSON.parse(itemResponse.replace(imageRegex, (match, image) => {
-                    return this.imageUrls[image] || imageMissing;
-                  // Replace any placeholder values for image URLs with the `web+graphie:` prefix
-                  // sepparately from any others, as they are parsed slightly differently to standard image
-                  // urls (Perseus adds the protocol in place of `web+graphie:`).
-                  }).replace(graphieRegex, (match, image) => {
-                    return `web+graphie:${image}`;
+                  this.setItemData(JSON.parse(itemResponse.replace(allImageRegex, (match, g1, g2, image) => {
+                    if (g1) {
+                      // Replace any placeholder values for image URLs with the `web+graphie:` prefix
+                      // separately from any others, as they are parsed slightly differently to standard image
+                      // urls (Perseus adds the protocol in place of `web+graphie:`).
+                      return `web+graphie:${image}`;
+                    } else {
+                      // Replace any placeholder values for image URLs with
+                      // the base URL for the perseus file we are reading from
+                      return this.imageUrls[image] || imageMissing;
+                    }
                   })));
                 });
             })
