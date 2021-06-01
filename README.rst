@@ -55,7 +55,7 @@ Getting started with development
 Updating translation strings
 ----------------------------
 
-Follow the directions in our `Kolibri i18n docs <https://kolibri-dev.readthedocs.io/en/develop/references/i18n.html>`__.
+Follow the directions in our `Kolibri i18n docs <https://kolibri-dev.readthedocs.io/en/develop/i18n.html>`__.
 
 
 Release process and versioning
@@ -107,4 +107,4 @@ If you ran ``make dist`` or ``make pex`` on Kolibri with ``kolibri-exercise-pers
 How can I contribute?
 ~~~~~~~~~~~~~~~~~~~~~
 
-Thanks for your interest! Please see the `contributing section <http://kolibri-dev.readthedocs.io/en/develop/start/contributing/index.html>`__ of our `online developer documentation <http://kolibri-dev.readthedocs.io/>`__.
+Thanks for your interest! Please see the `contributing section <https://kolibri-dev.readthedocs.io/en/develop/contributing/index.html>`__ of our `online developer documentation <http://kolibri-dev.readthedocs.io/>`__.
